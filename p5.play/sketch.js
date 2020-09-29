@@ -10,8 +10,13 @@ function setup() {
 }
 
 function draw() {
-  background("green");  
+  background("cyan");
+  //textSize(35);
+  fill("orange");
+  //text("one",200,200);  
   translate(200,200);
+
+  
   rotate(-90);
 
   hr = hour();
